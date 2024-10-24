@@ -76,7 +76,7 @@
                   <span class="icon">
                       <i class="fab fa-github"></i>
                   </span>
-                  <span>Code(Coming Soon)</span>
+                  <span>Code (Coming Soon)</span>
                   </a>
               </span>
               <!-- Dataset Link. -->
@@ -134,16 +134,97 @@
     <!--/ Abstract. -->
 </section>
 
+<section class="section">
+  <div class="container is-max-desktop">
+  <!-- Method overview. -->
+  <div class="columns is-centered">
+    <div class="column is-full-width">
+      <h2 class="title is-3">Overview</h2>
+      <div class="content has-text-justified">
+      <p>
+        we introduce \textit{MovieCharacter}, a straightforward yet effective tuning-free framework designed for character video synthesis. 
+        This framework enables users to initiate synthesis with a simple click and customize characters by decomposing the synthesis problem into distinct components, 
+        including character selection, objective removal, character motion imitation, and video composition. 
+      </p>
+      <div>
+          <img src="./static/images/framework.png" alt="method" class="center">
+        </div>
+        </div>
+    </div>
+  </div>
+</div>
+</section>
+
+
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <h2 class="title is-3">Results</h2>
+      <video id="teaser" autoplay muted loop playsinline height="100%">
+        <source src="./static/videos/video_lalaland_c01.mp4"
+                type="video/mp4">
+      </video>
+    </div>
+  </div>
+</section>
 
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
       <video id="teaser" autoplay muted loop playsinline height="100%">
-        <source src="./static/videos/video_lalaland1_c01.mp4"
+        <source src="./static/videos/video_lalaland_c02.mp4"
                 type="video/mp4">
       </video>
     </div>
   </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <video id="teaser" autoplay muted loop playsinline height="100%">
+        <source src="./static/videos/video_cm_c03.mp4"
+                type="video/mp4">
+      </video>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <video id="teaser" autoplay muted loop playsinline height="100%">
+        <source src="./static/videos/video_joker_c12.mp4"
+                type="video/mp4">
+      </video>
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Limitations and Future Works</h2>
+
+        <div class="content has-text-justified">
+          <p>
+            Despite achieving outstanding results, our methods still encounter several limitations. 
+            Our framework primarily stem from its reliance on the Character Motion Imitation module 
+            for character video synthesis in cinematic scenes. Currently, the framework struggles 
+            with representing complex action scenarios involving multiple interactions and occlusions effectively. 
+            While the overall pipeline established through this work enables the accumulation of data and the refinement 
+            of data preprocessing techniques, future efforts will focus on enhancing the capabilities of the 
+            Character Motion Imitation module. By addressing these limitations, we aim to improve the framework's performance 
+            in more intricate motion contexts, thereby expanding its applicability and effectiveness in diverse cinematic environments.
+        </div>
+
+      </div>
+    </div>
 </section>
 
 
